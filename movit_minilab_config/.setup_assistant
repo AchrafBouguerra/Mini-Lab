@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: minilab_simulation
+    relative_path: urdf/minilab.urdf
+  SRDF:
+    relative_path: config/minilab.srdf
+  CONFIG:
+    generated_timestamp: 1427213959

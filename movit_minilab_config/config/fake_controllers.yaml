@@ -1,0 +1,4 @@
+controller_list:
+  - name: fake_movebase_controller
+    joints:
+      []
