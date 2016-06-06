@@ -91,6 +91,17 @@
        return TestRosConnection;
        
     };
+// my own shit
+var commands = {
+'move *val' :function(val){
+         $scope.newTodo = val ;
+         $scope.addTodo();
+         $scope.$apply();
+ annyang.addCommands(commands);
+  annyang.start();
+
+}
+}
     
     //Moving the robot: publishing to cmd_vel
     ext.MoveRobot = function(direction,speed) {
